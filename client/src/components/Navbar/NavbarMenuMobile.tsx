@@ -1,5 +1,4 @@
 import React, { Dispatch, SetStateAction, useEffect } from 'react'
-import { NavLink } from 'react-router-dom';
 
 const NavbarMenuMobile = ({ open, set }: { open: boolean, set: Dispatch<SetStateAction<boolean>> }): React.ReactElement => {
   
