@@ -17,10 +17,10 @@ const ContactUsForm = (): React.ReactElement => {
     <div className="w-full h-full flex flex-col xl:flex-row justify-center xl:mt-8 relative left-[2000px] animation-waypoint-contactForm">
       <div className="flex flex-col w-full xl:h-[350px] justify-center xl:gap-[30%]">
         <div className="xl:w-[80%]">
-          <h2 className="mt-16 text-center text-xl font-semibold xl:text-left lg:text-2xl xl:text-3xl">
+          <h2 className="mt-8 text-center text-xl font-semibold xl:text-left xl:mt-16 lg:text-2xl xl:text-3xl">
             Contanos sobre tu proyecto
           </h2>
-          <p className="mt-2 text-center xl:text-left xl:text-lg">
+          <p className="mt-2 mb-3 xl:mb-0 text-center xl:text-left xl:text-lg">
             ¿Listo para dar vida a tus proyectos? Completa este formulario y
             observa cómo tus ideas se convierten en una realidad.
           </p>
