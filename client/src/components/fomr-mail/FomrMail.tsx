@@ -43,7 +43,6 @@ const FomrMail = (): React.ReactElement => {
     <footer className="lg:flex lg:justify-center mt-10">
       <div
         className="flex w-full flex-col max-w-[1400px] items-center bg-[#191A23] px-[20px] lg:px-[30px] xl:px-[60px] pt-[50px] pb-[30px] gap-[37px] xl:rounded-t-[45px]"
-        id="contactUs"
       >
         <div className="flex w-full flex-col lg:flex-row lg:justify-between items-center gap-3 xl:pr-[100px]">
           <a href="#" className="h-full text-white  flex items-center">

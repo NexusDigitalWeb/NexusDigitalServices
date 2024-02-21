@@ -1,7 +1,8 @@
 import React from "react";
-import GetProposalButton from "../buttons/GetProposalButton";
+// import GetProposalButton from "../buttons/GetProposalButton";
 import anime from "animejs";
 import { Waypoint } from "react-waypoint";
+import GoToFormButton from "../buttons/GoToFormButton";
 
 const GetProposal = (): React.ReactElement => {
   const handleWaypointToLeft = (target: string) => {
@@ -40,7 +41,7 @@ const GetProposal = (): React.ReactElement => {
             ayudarte en tu negocio!
           </p>
           <div className="mt-8 xl:mt-[3rem] flex justify-center">
-            <GetProposalButton />
+            <GoToFormButton />
           </div>
         </div>
       </div>
